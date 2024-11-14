@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* box-level */
+            /* dá para mmudar de box para inline, adicionando o display. EX: display: inline; Lembrando que, usando o inline não dá pra fazer height-altura e width-largura. Também é possível usar o display: inline-block; assim, fica possível usar altura e largura. */
+
+
+            /*Essa primeira parte chamamos de box-size*/
+           background-color: lightgray;
+           height: 300px;     
+           width: 300px;
+           
+           border: 10px solid darkcyan;
+
+           /* Deixar algo EXATAMENTE no meio, USAR - margin: auto;(se for alguma caixa. Se for TEXTO, usar TEXT-ALIGN: CENTER;*/
+         
+           margin: 20px auto 40px;
+
+           padding: 10px;
+
+           outline: 5px dashed sandybrown;
+        }
+
+        a { /* inline-level */
+            border: 10px solid red;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

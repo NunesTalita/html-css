@@ -1,0 +1,41 @@
+   ***   ANATOMIA DE UMA CAIXA:   ***
+
+height - Refere-se a altura 
+width - Refere-se a largura
+border - Borda, linha que circula o conteúdo
+*padding (acolchoamento ou prenchimento) - espaço que você amplia na borda para não ficar colado no conteúdo.
+margin - Margem, espaço da borda para fora.
+outline - Contorno ou traçado, espaço fora da borda, mas continua dentro da margem. 
+
+   ***   TIPOS DE CAIXA:   ***
+   Existem dois tipos de caixa: box-level e inline-level.
+
+   box-level - Sempre que uma caixa vai começar, ele quebra a linha, ocupa o viewport inteiro e quebra de novo a linha quando finaliza. 
+    EX: <div>
+        <h1> - <h6>
+        <p>
+        <main>
+        <header>
+        <nav>
+        <article>
+        <aside>
+        <footer>
+        <form>
+        <video>
+
+   inline-level - Não quebra a linha, não ocupa o viewport inteiro e depois continua na mesma linha. 
+    EX: <span>
+        <a>
+        <code>
+        <small>
+        <strong>
+        <em>
+        <sup> - <sub>
+        <label>
+        <button>
+        <input>
+        <select>
+
+
+
+   
